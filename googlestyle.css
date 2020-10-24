@@ -1,0 +1,63 @@
+.searchwrap {	
+	background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    margin: 0 auto;
+	width: 560px;
+	height: 39px;
+	padding-left: 14px;
+	padding-right: 8px;
+	padding-top: 5px;
+}
+input[type="text"] {
+	display: flex;
+	width: 487px;
+	height: 35px;
+	border: none;
+}
+
+.logo{
+	padding-top:109px;
+}
+
+.logo-subtext{
+	color:#4285f4;
+	font:16px/16px roboto-regular, arial, sans-serif;
+	left: 104px;
+	right: 100px;
+	bottom: 26px;
+	position: relative;
+	white-space: nowrap;
+}
+
+#main{
+	margin: 47px;
+}
+
+#top{
+	font-family: arial, sans-serif;
+	text-align: right;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.google-buttons {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}

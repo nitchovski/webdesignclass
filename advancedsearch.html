@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+		<link rel="stylesheet" href="advancedgooglestyle.css">
+    </head>
+    <body class="bodystyle">
+		<div class="top-part">
+			<a href="index.html" style="margin-top:40px; margin-right:20px">Google Search</a>
+		</div>
+		<div class="header">
+			<div style="margin-left:10px"> Advanced Search</div>
+		</div>
+		<div style="border-bottom: 1px solid #ebebeb"></div>
+		</div>
+		<div class="mainbody">
+			<form action="https://google.com/search" id ="forms" method="GET">
+			<div class="head-text" style="margin-bottom: 20px">
+				<span>Find pages with...</span>
+			</div>
+			<div class="wholearea">
+				<div class="clearcode">
+					<div class="textfield">
+						<div class="textlabel">
+							<label for="first_search">all these words:</label>
+						</div>
+					</div>
+					<div class ="inputarea">
+						<input name="first_search" type="text">
+					</div>
+				</div>
+				<div class="clearcode">
+					<div class="textfield">
+						<div class = "textlabel">
+							<label for="second_search">this exact word or phrase:</label>
+						</div>
+					</div>
+					<div class ="inputarea">
+						<input name="second_search" type="text">
+					</div>
+				</div>
+				<div class="clearcode">
+					<div class ="textfield">
+						<div class = "textlabel">
+							<label for="third_search">any of these words:</label>
+						</div>
+					</div>
+					<div class ="inputarea">
+						<input name="third_search" type="text">
+					</div>
+				</div>
+				<div class="clearcode">
+					<div class="textfield">
+						<div class = "textlabel">
+							<label for="fourth_search">none of these words:</label>
+						</div>
+					</div>
+					<div class ="inputarea">
+						<input name="fourth_search" type="text">
+					</div>
+				</div>
+				<!--
+				<div class ="clearcode">
+					<div class="textfield">
+						<div class ="textlabel">
+							<label for="fifth_search">numbers ranging from:</label>
+						</div>
+					</div>
+					<div class = "inputarea" style="width:15%">
+						<input name="fifth_search" type="text">
+					</div>
+					<div class="textlabel">
+						<div class ="inputarea" style="width:15%">
+						<label for="fifth_search_b" style= "margin-left: -10px; margin-right: 10px; height: 42px;color: #222;font-size: 13px;line-height: 16px;vertical-align: middle;"> to </label>
+						<input for="fifth_search_b" type="text">
+						</div>
+					</div>
+				</div>
+				-->
+			</div>
+			<br>
+			<div class="clearcode">
+				<div class ="inputarea" style="text-align:right; width: 50%">
+				<input class="submitbutton" name="q" value="Advanced Search" type="submit">
+				</div>
+			</div>
+			</form>
+		</div>
+    </body>
+</html>
